@@ -2,9 +2,9 @@
 class Xtag < Formula
   desc "Finds latest release tag which matched with given tag with x wild card (a.k.a. xtag)."
   homepage "https://github.com/haya14busa/xtag"
-  url "https://github.com/haya14busa/xtag/releases/download/v0.9.3/xtag_0.9.3_Darwin_x86_64.tar.gz"
-  version "0.9.3"
-  sha256 "4c140194c39d2d2882b25b18cb5d489792a11cd77b0f24fd0251e23082a26554"
+  url "https://github.com/haya14busa/xtag/releases/download/v1.0.0/xtag_1.0.0_Darwin_x86_64.tar.gz"
+  version "1.0.0"
+  sha256 "2f437f81801861149a9b5baf207665d6bb158445b463b35b88390673c52cc6d9"
 
   def install
     bin.install "xtag"
